@@ -1,0 +1,24 @@
+{
+  "name": "aws-opensearch-client",
+  "version": "1.0.0",
+  "description": "Gives you a configured opensearch client using an aws role",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnrushefsky/aws-opensearch-client.git"
+  },
+  "author": "Shawn Rushefsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawnrushefsky/aws-opensearch-client/issues"
+  },
+  "homepage": "https://github.com/shawnrushefsky/aws-opensearch-client#readme",
+  "dependencies": {
+    "@aws-sdk/credential-provider-node": "^3.171.0",
+    "@opensearch-project/opensearch": "^2.0.0",
+    "aws4": "^1.11.0"
+  }
+}
